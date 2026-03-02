@@ -20,10 +20,11 @@
 
 ## Kontrol yöntemleri
 Field calculator içinde arcade kullanarak kontrol_ipa kolonuna kontrol yorumları yazdırabliriz. Bu, kontrol_ipa kolonu için çalıştırıldığında ilgili kayıtlara not düşen basit bir örnek. alt_kullanim değeri için coded value domain'in kodlarını girerek kontrol etmek gerekiyor. En çok girilen fonksiyondan en az girilen fonksiyona doğru çapraz tablo kontrollerini listeleyelim.
-| alt_kullanim           | Kural |
-| -----------------------| ----------- |
-| 1 - Kentsel Konut Alanı| "detay_konut" kolonu boş olamaz. |
-| 1 - Kentsel Konut Alanı| (Site) sınıfındaki konut alanlarında "ad" kolonu boş olamaz. |
+| alt_kullanim           | Kural | Arcade |
+| -----------------------| ----------- | ---|
+| 1 - Kentsel Konut Alanı| "detay_konut" kolonu boş olamaz. | Hazır |
+| 1 - Kentsel Konut Alanı| (Site) sınıfındaki konut alanlarında "ad" kolonu boş olamaz. | Hazır |
+| 8 - Ticaret Konut Alanı| (Site) sınıfındaki konut alanlarında "ad" kolonu boş olamaz. | **Hazır Değil** |
         
         //JavaScript
         /*Konut olarak girilmiş ve detay konut fieldi boş bırakılmış featureların kontrolü*/
