@@ -126,8 +126,13 @@ Field calculator içinde arcade kullanarak kontrol_ipa kolonuna kontrol yorumlar
 
 ## Veri Temin Edilebilecek Linkler (Crawl)
 [MEB Özel Öğretim Kurumları Genel Müdürlüğü tüm özel öğretim kurumları listesi](https://ookgm.meb.gov.tr/kurumlar.php?sayfa=7&tur=okul&il=%C4%B0STANBUL&tur2=0) *Açık adres* içeren tablo bazlı veri bulunuyor. **crawl + geocode** ile haritaya alınabilir (15.10.2025 tarihli)
+## Projeye kapsamında uyulabilecek çerçeveler
+Veriyi AI ready şekilde hazırlamak ve bulundurmak. 
+>Birleşik Krallık hükümeti, kamu sektörü verilerini yapay zekaya hazır hale getirmek için bir çerçeve geliştirdi. Bu, hükümet veri kümelerinin yüksek kaliteli, iyi yönetilen ve kullanımı kolay olmasını sağlayarak yapay zekanın tüm potansiyelinin ortaya çıkarılmasına yardımcı olacaktır. Yapay zekaya hazır veri, doğru, eksiksiz, tutarlı, güvenli ve hem insanlar hem de makineler tarafından güvenilebilen ve anlaşılabilen meta verilerle zenginleştirilmiş veri anlamına gelir.
+>
+>Bu yeni çerçeve, Bulunabilir, Erişilebilir, Birlikte Çalışabilir, Yeniden Kullanılabilir (FAIR) prensiplerine dayanarak, yapay zekaya hazır veri kümelerinin hazırlanması için en iyi uygulamaları ortaya koymaktadır. Kalite, yönetişim, meta veri ve API'ler için standartların yanı sıra, insan müdahalesi gerektiren kontroller ve veri yönetimi için net roller gibi gözetim önlemlerini de kapsamaktadır. Bu yaklaşım, Birleşik Krallık'ı yapay zeka için sorumlu veri yönetiminde küresel bir lider olarak konumlandırmayı amaçlamaktadır.
 ## Faydalı Linkler
 1. [Harita İstanbul](harita.istanbul)
 2. [İBB Şehir Haritası](https://sehirharitasiapi.ibb.gov.tr)
 3. [İBB Şehir Haritası API Reference](https://sehirharitasiapi.ibb.gov.tr/developer/index.html)
-4. 
+4. [AI Ready Data Standards](https://www.ibm.com/think/topics/ai-ready-data)
