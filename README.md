@@ -1,6 +1,6 @@
 # Meraklısınıa kolaylaştırıcı notlar
 
-## Notların düzenlenmiş halini projenin wiki sayfasında bulabilirsiniz. Artık burada kod snippetleri olacak.
+## Notların düzenlenmiş halini [projenin wiki sayfası](https://github.com/aronnie-droid/usefulpractices/wiki)nda bulabilirsiniz. Artık burada kod snippetleri olacak.
 
 ## Gündelik
 
