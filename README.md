@@ -21,7 +21,7 @@
 >ilce kolonunda domain kullanıldığı için çalışılan ilçenin UAVT kodunu yazmak gerekiyor. Sancaktepe için ilce = 2054 last_edited_date için tarih girildiğinde o tarihteki 00:00:00 satini kabul ediyor. Gece 12'den sonra yapılan editlerin tümü görünür.
 >BUNUN GİBİ İHTİYAÇ OLAN PRATİK SATIRLAR GEREKİYORSA KONUŞUP BULALIM
 
-
+**Harita İstanbul uyumlu koordinat üretici snippet**
     mv = arcpy.mp.ArcGISProject("CURRENT").activeView
     ext = mv.camera.getExtent()
 
