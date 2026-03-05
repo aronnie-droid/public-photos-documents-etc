@@ -1,6 +1,7 @@
 # Meraklısınıa kolaylaştırıcı notlar
 
 ## Notların düzenlenmiş halini [projenin wiki sayfası](https://github.com/aronnie-droid/usefulpractices/wiki)nda bulabilirsiniz. Artık burada kod snippetleri olacak.
+## Kodlar master brancha taşındı. Main daha çok viki amaçlı kalacak
 
 ## Gündelik
 
