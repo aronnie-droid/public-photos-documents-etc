@@ -22,25 +22,25 @@
 >BUNUN GİBİ İHTİYAÇ OLAN PRATİK SATIRLAR GEREKİYORSA KONUŞUP BULALIM
 
 **Harita İstanbul uyumlu koordinat üretici snippet**
-    mv = arcpy.mp.ArcGISProject("CURRENT").activeView
-    ext = mv.camera.getExtent()
+        mv = arcpy.mp.ArcGISProject("CURRENT").activeView
+        ext = mv.camera.getExtent()
 
-    center_x = (ext.XMin + ext.XMax) / 2
-    center_y = (ext.YMin + ext.YMax) / 2
+        center_x = (ext.XMin + ext.XMax) / 2
+        center_y = (ext.YMin + ext.YMax) / 2
 
-    sr_map = mv.map.spatialReference
-    sr_wgs = arcpy.SpatialReference(4326)
+        sr_map = mv.map.spatialReference
+        sr_wgs = arcpy.SpatialReference(4326)
 
-    pt = arcpy.PointGeometry(arcpy.Point(center_x, center_y), sr_map)
-    pt_wgs = pt.projectAs(sr_wgs)
+        pt = arcpy.PointGeometry(arcpy.Point(center_x, center_y), sr_map)
+        pt_wgs = pt.projectAs(sr_wgs)
 
-    lon = pt_wgs.centroid.X
-    lat = pt_wgs.centroid.Y
+        lon = pt_wgs.centroid.X
+        lat = pt_wgs.centroid.Y
 
-    zoom = 17
+        zoom = 17
 
-    print(f"{lon:.5f},{lat:.5f},{zoom}")
-    29.26880,41.00869,17
+        print(f"{lon:.5f},{lat:.5f},{zoom}")
+        29.26880,41.00869,17
 
 
 ---
