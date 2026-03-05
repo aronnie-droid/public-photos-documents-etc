@@ -21,6 +21,28 @@
 >ilce kolonunda domain kullanıldığı için çalışılan ilçenin UAVT kodunu yazmak gerekiyor. Sancaktepe için ilce = 2054 last_edited_date için tarih girildiğinde o tarihteki 00:00:00 satini kabul ediyor. Gece 12'den sonra yapılan editlerin tümü görünür.
 >BUNUN GİBİ İHTİYAÇ OLAN PRATİK SATIRLAR GEREKİYORSA KONUŞUP BULALIM
 
+
+    mv = arcpy.mp.ArcGISProject("CURRENT").activeView
+    ext = mv.camera.getExtent()
+
+    center_x = (ext.XMin + ext.XMax) / 2
+    center_y = (ext.YMin + ext.YMax) / 2
+
+    sr_map = mv.map.spatialReference
+    sr_wgs = arcpy.SpatialReference(4326)
+
+    pt = arcpy.PointGeometry(arcpy.Point(center_x, center_y), sr_map)
+    pt_wgs = pt.projectAs(sr_wgs)
+
+    lon = pt_wgs.centroid.X
+    lat = pt_wgs.centroid.Y
+
+    zoom = 17
+
+    print(f"{lon:.5f},{lat:.5f},{zoom}")
+    29.26880,41.00869,17
+
+
 ---
 
 ## Kontrol yöntemleri
